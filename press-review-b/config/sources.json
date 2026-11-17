@@ -1,0 +1,628 @@
+{
+  "about": "KIINDULÓ HONLAPLISTA. Nem teljes forrásmátrix, és nem minden cím automatikusan feldolgozható. A sikertelen oldalak naplózandók.",
+  "sources": [
+    {
+      "id": "A-001",
+      "group": "A",
+      "name": "rbb24",
+      "url": "https://www.rbb24.de/",
+      "type": "html"
+    },
+    {
+      "id": "A-002",
+      "group": "A",
+      "name": "Berlin Szenátus",
+      "url": "https://www.berlin.de/sen/",
+      "type": "html"
+    },
+    {
+      "id": "A-003",
+      "group": "A",
+      "name": "Brandenburg kormánya",
+      "url": "https://www.brandenburg.de/",
+      "type": "html"
+    },
+    {
+      "id": "A-004",
+      "group": "A",
+      "name": "Tagesspiegel Berlin",
+      "url": "https://www.tagesspiegel.de/berlin/",
+      "type": "html"
+    },
+    {
+      "id": "A-005",
+      "group": "A",
+      "name": "Berliner Morgenpost",
+      "url": "https://www.morgenpost.de/berlin/",
+      "type": "html"
+    },
+    {
+      "id": "A-006",
+      "group": "A",
+      "name": "Berliner Zeitung",
+      "url": "https://www.berliner-zeitung.de/berlin",
+      "type": "html"
+    },
+    {
+      "id": "B-001",
+      "group": "B",
+      "name": "BVG",
+      "url": "https://www.bvg.de/",
+      "type": "html"
+    },
+    {
+      "id": "B-002",
+      "group": "B",
+      "name": "S-Bahn Berlin",
+      "url": "https://sbahn.berlin/",
+      "type": "html"
+    },
+    {
+      "id": "B-003",
+      "group": "B",
+      "name": "VBB",
+      "url": "https://www.vbb.de/",
+      "type": "html"
+    },
+    {
+      "id": "B-004",
+      "group": "B",
+      "name": "NEB",
+      "url": "https://www.neb.de/",
+      "type": "html"
+    },
+    {
+      "id": "B-005",
+      "group": "B",
+      "name": "ODEG",
+      "url": "https://www.odeg.de/",
+      "type": "html"
+    },
+    {
+      "id": "B-006",
+      "group": "B",
+      "name": "Barnimer Busgesellschaft",
+      "url": "https://www.bbg-eberswalde.de/",
+      "type": "html"
+    },
+    {
+      "id": "B-007",
+      "group": "B",
+      "name": "Strausberger Eisenbahn",
+      "url": "https://www.strausberger-eisenbahn.de/",
+      "type": "html"
+    },
+    {
+      "id": "B-008",
+      "group": "B",
+      "name": "IGEB",
+      "url": "https://www.igeb.org/",
+      "type": "html"
+    },
+    {
+      "id": "B-009",
+      "group": "B",
+      "name": "Schöneiche–Rüdersdorf",
+      "url": "https://www.srs-tram.de/",
+      "type": "html"
+    },
+    {
+      "id": "B-010",
+      "group": "B",
+      "name": "Woltersdorfer Straßenbahn",
+      "url": "https://www.woltersdorfer-strassenbahn.com/",
+      "type": "html"
+    },
+    {
+      "id": "C-001",
+      "group": "C",
+      "name": "Bundesregierung",
+      "url": "https://www.bundesregierung.de/",
+      "type": "html"
+    },
+    {
+      "id": "C-002",
+      "group": "C",
+      "name": "Bundestag",
+      "url": "https://www.bundestag.de/",
+      "type": "html"
+    },
+    {
+      "id": "C-003",
+      "group": "C",
+      "name": "Bundesrat",
+      "url": "https://www.bundesrat.de/",
+      "type": "html"
+    },
+    {
+      "id": "C-004",
+      "group": "C",
+      "name": "tagesschau",
+      "url": "https://www.tagesschau.de/",
+      "type": "html"
+    },
+    {
+      "id": "C-005",
+      "group": "C",
+      "name": "Deutschlandfunk",
+      "url": "https://www.deutschlandfunk.de/",
+      "type": "html"
+    },
+    {
+      "id": "D-001",
+      "group": "D",
+      "name": "Deutsche Bahn Presse",
+      "url": "https://www.deutschebahn.com/de/presse/",
+      "type": "html"
+    },
+    {
+      "id": "D-002",
+      "group": "D",
+      "name": "DB InfraGO",
+      "url": "https://www.dbinfrago.com/",
+      "type": "html"
+    },
+    {
+      "id": "D-003",
+      "group": "D",
+      "name": "Hamburger Hochbahn",
+      "url": "https://www.hochbahn.de/",
+      "type": "html"
+    },
+    {
+      "id": "D-004",
+      "group": "D",
+      "name": "MVG München",
+      "url": "https://www.mvg.de/",
+      "type": "html"
+    },
+    {
+      "id": "D-005",
+      "group": "D",
+      "name": "SSB Stuttgart",
+      "url": "https://www.ssb-ag.de/",
+      "type": "html"
+    },
+    {
+      "id": "D-006",
+      "group": "D",
+      "name": "KVB Köln",
+      "url": "https://www.kvb.koeln/",
+      "type": "html"
+    },
+    {
+      "id": "D-007",
+      "group": "D",
+      "name": "Rheinbahn Düsseldorf",
+      "url": "https://www.rheinbahn.de/",
+      "type": "html"
+    },
+    {
+      "id": "D-008",
+      "group": "D",
+      "name": "VGF Frankfurt",
+      "url": "https://www.vgf-ffm.de/",
+      "type": "html"
+    },
+    {
+      "id": "D-009",
+      "group": "D",
+      "name": "DVB Dresden",
+      "url": "https://www.dvb.de/",
+      "type": "html"
+    },
+    {
+      "id": "D-010",
+      "group": "D",
+      "name": "LVB Leipzig",
+      "url": "https://www.l.de/verkehrsbetriebe/",
+      "type": "html"
+    },
+    {
+      "id": "D-011",
+      "group": "D",
+      "name": "WSW Wuppertal",
+      "url": "https://www.wsw-online.de/",
+      "type": "html"
+    },
+    {
+      "id": "E-001",
+      "group": "E",
+      "name": "MÁV csoport",
+      "url": "https://www.mavcsoport.hu/",
+      "type": "html"
+    },
+    {
+      "id": "E-002",
+      "group": "E",
+      "name": "BKK",
+      "url": "https://bkk.hu/",
+      "type": "html"
+    },
+    {
+      "id": "E-003",
+      "group": "E",
+      "name": "BKV",
+      "url": "https://www.bkv.hu/",
+      "type": "html"
+    },
+    {
+      "id": "E-004",
+      "group": "E",
+      "name": "Főváros",
+      "url": "https://budapest.hu/",
+      "type": "html"
+    },
+    {
+      "id": "E-005",
+      "group": "E",
+      "name": "Zugló",
+      "url": "https://www.zuglo.hu/",
+      "type": "html"
+    },
+    {
+      "id": "E-006",
+      "group": "E",
+      "name": "Rákosmente",
+      "url": "https://www.rakosmente.hu/",
+      "type": "html"
+    },
+    {
+      "id": "E-007",
+      "group": "E",
+      "name": "Országgyűlés",
+      "url": "https://www.parlament.hu/",
+      "type": "html"
+    },
+    {
+      "id": "E-008",
+      "group": "E",
+      "name": "Magyar Közlöny",
+      "url": "https://magyarkozlony.hu/",
+      "type": "html"
+    },
+    {
+      "id": "F-001",
+      "group": "F",
+      "name": "TfL",
+      "url": "https://tfl.gov.uk/",
+      "type": "html"
+    },
+    {
+      "id": "F-002",
+      "group": "F",
+      "name": "London City Hall",
+      "url": "https://www.london.gov.uk/",
+      "type": "html"
+    },
+    {
+      "id": "F-003",
+      "group": "F",
+      "name": "Network Rail",
+      "url": "https://www.networkrail.co.uk/",
+      "type": "html"
+    },
+    {
+      "id": "F-004",
+      "group": "F",
+      "name": "National Rail",
+      "url": "https://www.nationalrail.co.uk/",
+      "type": "html"
+    },
+    {
+      "id": "F-005",
+      "group": "F",
+      "name": "Manchester Metrolink",
+      "url": "https://tfgm.com/",
+      "type": "html"
+    },
+    {
+      "id": "F-006",
+      "group": "F",
+      "name": "West Midlands Metro",
+      "url": "https://westmidlandsmetro.com/",
+      "type": "html"
+    },
+    {
+      "id": "F-007",
+      "group": "F",
+      "name": "Edinburgh Trams",
+      "url": "https://edinburghtrams.com/",
+      "type": "html"
+    },
+    {
+      "id": "F-008",
+      "group": "F",
+      "name": "Nexus Tyne and Wear",
+      "url": "https://www.nexus.org.uk/",
+      "type": "html"
+    },
+    {
+      "id": "G-001",
+      "group": "G",
+      "name": "ORF",
+      "url": "https://orf.at/",
+      "type": "html"
+    },
+    {
+      "id": "G-002",
+      "group": "G",
+      "name": "Österreich Bundesregierung",
+      "url": "https://www.bundeskanzleramt.gv.at/",
+      "type": "html"
+    },
+    {
+      "id": "G-003",
+      "group": "G",
+      "name": "Österreich Parlament",
+      "url": "https://www.parlament.gv.at/",
+      "type": "html"
+    },
+    {
+      "id": "G-004",
+      "group": "G",
+      "name": "Schweizer Bundesrat",
+      "url": "https://www.admin.ch/gov/de/start.html",
+      "type": "html"
+    },
+    {
+      "id": "G-005",
+      "group": "G",
+      "name": "SRF",
+      "url": "https://www.srf.ch/news",
+      "type": "html"
+    },
+    {
+      "id": "G-006",
+      "group": "G",
+      "name": "SWI swissinfo",
+      "url": "https://www.swissinfo.ch/ger/",
+      "type": "html"
+    },
+    {
+      "id": "H-001",
+      "group": "H",
+      "name": "ÖBB",
+      "url": "https://www.oebb.at/",
+      "type": "html"
+    },
+    {
+      "id": "H-002",
+      "group": "H",
+      "name": "ÖBB Presse",
+      "url": "https://presse.oebb.at/",
+      "type": "html"
+    },
+    {
+      "id": "H-003",
+      "group": "H",
+      "name": "Wiener Linien",
+      "url": "https://www.wienerlinien.at/",
+      "type": "html"
+    },
+    {
+      "id": "H-004",
+      "group": "H",
+      "name": "SBB",
+      "url": "https://www.sbb.ch/",
+      "type": "html"
+    },
+    {
+      "id": "H-005",
+      "group": "H",
+      "name": "BLS",
+      "url": "https://www.bls.ch/",
+      "type": "html"
+    },
+    {
+      "id": "H-006",
+      "group": "H",
+      "name": "RhB",
+      "url": "https://www.rhb.ch/",
+      "type": "html"
+    },
+    {
+      "id": "I-001",
+      "group": "I",
+      "name": "ČD",
+      "url": "https://www.cd.cz/",
+      "type": "html"
+    },
+    {
+      "id": "I-002",
+      "group": "I",
+      "name": "Správa železnic",
+      "url": "https://www.spravazeleznic.cz/",
+      "type": "html"
+    },
+    {
+      "id": "I-003",
+      "group": "I",
+      "name": "ZSSK",
+      "url": "https://www.zssk.sk/",
+      "type": "html"
+    },
+    {
+      "id": "I-004",
+      "group": "I",
+      "name": "ŽSR",
+      "url": "https://www.zsr.sk/",
+      "type": "html"
+    },
+    {
+      "id": "I-005",
+      "group": "I",
+      "name": "HŽPP",
+      "url": "https://www.hzpp.hr/",
+      "type": "html"
+    },
+    {
+      "id": "I-006",
+      "group": "I",
+      "name": "Slovenske železnice",
+      "url": "https://potniski.sz.si/",
+      "type": "html"
+    },
+    {
+      "id": "I-007",
+      "group": "I",
+      "name": "Srbija Voz",
+      "url": "https://srbijavoz.rs/",
+      "type": "html"
+    },
+    {
+      "id": "J-001",
+      "group": "J",
+      "name": "Stadler",
+      "url": "https://www.stadlerrail.com/",
+      "type": "html"
+    },
+    {
+      "id": "J-002",
+      "group": "J",
+      "name": "Siemens Mobility",
+      "url": "https://www.mobility.siemens.com/",
+      "type": "html"
+    },
+    {
+      "id": "J-003",
+      "group": "J",
+      "name": "Alstom",
+      "url": "https://www.alstom.com/",
+      "type": "html"
+    },
+    {
+      "id": "J-004",
+      "group": "J",
+      "name": "Škoda Group",
+      "url": "https://www.skodagroup.com/",
+      "type": "html"
+    },
+    {
+      "id": "J-005",
+      "group": "J",
+      "name": "CAF",
+      "url": "https://www.cafmobility.com/",
+      "type": "html"
+    },
+    {
+      "id": "J-006",
+      "group": "J",
+      "name": "PESA",
+      "url": "https://pesa.pl/",
+      "type": "html"
+    },
+    {
+      "id": "J-007",
+      "group": "J",
+      "name": "Newag",
+      "url": "https://www.newag.pl/",
+      "type": "html"
+    },
+    {
+      "id": "J-008",
+      "group": "J",
+      "name": "Hitachi Rail",
+      "url": "https://www.hitachirail.com/",
+      "type": "html"
+    },
+    {
+      "id": "J-009",
+      "group": "J",
+      "name": "Talgo",
+      "url": "https://www.talgo.com/",
+      "type": "html"
+    },
+    {
+      "id": "J-010",
+      "group": "J",
+      "name": "DB Gebrauchtzug",
+      "url": "https://www.db-gebrauchtzug.de/",
+      "type": "html"
+    },
+    {
+      "id": "K-001",
+      "group": "K",
+      "name": "Drehscheibe Online",
+      "url": "https://www.drehscheibe-online.de/",
+      "type": "html"
+    },
+    {
+      "id": "K-002",
+      "group": "K",
+      "name": "IGEB SIGNAL",
+      "url": "https://signalarchiv.de/",
+      "type": "html"
+    },
+    {
+      "id": "K-003",
+      "group": "K",
+      "name": "Eisenbahn-Kurier",
+      "url": "https://www.eisenbahn-kurier.de/",
+      "type": "html"
+    },
+    {
+      "id": "K-004",
+      "group": "K",
+      "name": "Eisenbahn-Romantik",
+      "url": "https://www.swrfernsehen.de/eisenbahn-romantik/",
+      "type": "html"
+    },
+    {
+      "id": "L-001",
+      "group": "L",
+      "name": "EU TED tenders",
+      "url": "https://ted.europa.eu/",
+      "type": "html"
+    },
+    {
+      "id": "L-002",
+      "group": "L",
+      "name": "Magyar EKR",
+      "url": "https://ekr.gov.hu/",
+      "type": "html"
+    },
+    {
+      "id": "L-003",
+      "group": "L",
+      "name": "VBB menetrend",
+      "url": "https://www.vbb.de/",
+      "type": "html"
+    },
+    {
+      "id": "L-004",
+      "group": "L",
+      "name": "ÖBB menetrend",
+      "url": "https://www.oebb.at/",
+      "type": "html"
+    },
+    {
+      "id": "L-005",
+      "group": "L",
+      "name": "SBB menetrend",
+      "url": "https://www.sbb.ch/",
+      "type": "html"
+    },
+    {
+      "id": "M-001",
+      "group": "M",
+      "name": "ARD műsorrend",
+      "url": "https://www.daserste.de/programm/",
+      "type": "html"
+    },
+    {
+      "id": "M-002",
+      "group": "M",
+      "name": "ZDF műsorrend",
+      "url": "https://www.zdf.de/programm",
+      "type": "html"
+    },
+    {
+      "id": "M-003",
+      "group": "M",
+      "name": "ARD műsor áttekintés",
+      "url": "https://programm.ard.de/",
+      "type": "html"
+    }
+  ]
+}
